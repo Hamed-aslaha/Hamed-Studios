@@ -1,57 +1,99 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hamed Studios - Photographe</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Photographe, Retoucheur, Designer et Créateur de Vidéos. Spécialisé dans les portraits, mariages, événements et vidéos pour petites et moyennes entreprises.">
+  <title>Hamed Studios Graphique</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+  <!-- Navigation -->
   <header>
-    <h1>Hamed Studios</h1>
-    <p>Photographe passionné - Mariage | Portrait | Événement</p>
     <nav>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#services">Services</a>
-      <a href="#a-propos">À propos</a>
-      <a href="#contact">Contact</a>
+      <ul>
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="gallery">
-      <img src="images/photo1.jpg" alt="Mariage" />
-      <img src="images/photo2.jpg" alt="Portrait" />
-      <img src="images/photo3.jpg" alt="Événement" />
-      <img src="images/photo4.jpg" alt="Studio" />
+  <!-- Page d'accueil -->
+  <section id="home">
+    <div class="hero">
+      <h1>Bienvenue chez Hamed Studios Graphique</h1>
+      <p>Photographie, retouche, design et vidéos pour entreprises et particuliers.</p>
+      <a href="#contact" class="cta-button">Réservez une séance</a>
     </div>
   </section>
 
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>Mon Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="image1.jpg" alt="Photographie de mariage">
+        <h3>Photographie de Mariage</h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="image2.jpg" alt="Retouche photo">
+        <h3>Retouche Photo</h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="image3.jpg" alt="Vidéo d'événement">
+        <h3>Vidéo d'Événement</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
   <section id="services">
-    <h2>Services</h2>
-    <ul>
-      <li>Séance photo portrait – à partir de 20 000 FCFA</li>
-      <li>Couverture mariage – à partir de 100 000 FCFA</li>
-      <li>Photographie événementielle</li>
-      <li>Retouches et montages professionnels</li>
-    </ul>
+    <h2>Mes Services</h2>
+    <div class="service-item">
+      <h3>Photographie</h3>
+      <p>Portraits, mariages, événements professionnels ou privés.</p>
+    </div>
+    <div class="service-item">
+      <h3>Retouche & Graphisme</h3>
+      <p>Des retouches professionnelles et des designs graphiques pour sublimer vos projets.</p>
+    </div>
+    <div class="service-item">
+      <h3>Vidéos pour PME</h3>
+      <p>Création de vidéos promotionnelles et événementielles pour petites et moyennes entreprises.</p>
+    </div>
   </section>
 
-  <section id="a-propos">
-    <h2>À propos</h2>
-    <p>Je suis Hamed, photographe basé au Cameroun. Mon objectif est de capturer les émotions et les moments forts de votre vie. Chaque cliché est une histoire, et je suis là pour la raconter.</p>
-  </section>
-
+  <!-- Contact -->
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Email : <a href="mailto:hamedstudios@example.com">hamedstudios@example.com</a></p>
-    <p>Téléphone : +237 6 00 00 00 00</p>
-    <p>Instagram : <a href="https://instagram.com/hamedstudios" target="_blank">@hamedstudios</a></p>
+    <h2>Contactez-moi</h2>
+    <p>📱 <a href="https://wa.me/+237680959344" target="_blank">WhatsApp Direct</a></p>
+    <p>📸 <a href="https://www.instagram.com/hamedstudiosgraphique?igsh=MXVyam9iZnVkcG5ieQ==" target="_blank">Instagram</a></p>
+    <p>📘 <a href="https://www.facebook.com/profile.php?id=61570858256559" target="_blank">Facebook</a></p>
+
+    <form action="#" method="POST">
+      <label for="name">Nom</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
   </section>
 
+  <!-- Footer -->
   <footer>
+    <div class="social-links">
+      <a href="https://www.instagram.com/hamedstudiosgraphique?igsh=MXVyam9iZnVkcG5ieQ==" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=61570858256559" target="_blank">Facebook</a>
+      <a href="https://wa.me/+237680959344" target="_blank">WhatsApp</a>
+    </div>
     <p>&copy; 2025 Hamed Studios. Tous droits réservés.</p>
   </footer>
 
